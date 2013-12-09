@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Theme.AppCompat.CompactMenu.Dialog"
+    android:background="#FFF5F5F5"
+    android:id="@+id/activityListLinearLayout"
+    android:padding="15dip" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:text="@string/complete_action_using"
+        android:gravity="center" />
+
+</LinearLayout>
